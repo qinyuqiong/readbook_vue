@@ -1,5 +1,5 @@
 <template>
     <div>
-        书籍分类
+        文章详情
     </div>
 </template>

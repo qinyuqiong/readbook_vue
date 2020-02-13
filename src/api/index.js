@@ -15,7 +15,7 @@ service.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('token');
     if (token) {
-      // no-param-reassign
+      // eslint-disable-next-line no-param-reassign
       config.headers.Authorization = token;
     }
     return config;
