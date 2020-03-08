@@ -26,6 +26,11 @@ export default {
 </script>
 
 <style lang="scss">
+header {
+    max-width: 100px;
+    height:100%;
+}
+
 main,
 footer {
     margin: auto;
